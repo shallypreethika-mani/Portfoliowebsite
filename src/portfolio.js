@@ -20,26 +20,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Shally Preethika Mani",
+  title: "Hi all, I'm Shally Preethika Mani",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A Business Analytics graduate passionate about data-driven decision-making with 3 years of experience in Industrial Automation."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1oNy128z3_HyBtDfBEF06x2NJQ7Q-0Tct/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/shallypreethika-mani",
+  linkedin: "https://www.linkedin.com/in/shallymani/",
+  gmail: "shallypreethika.mani@gmail.com",
+  tableau: "https://public.tableau.com/app/profile/shallypreethika/vizzes"
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -126,23 +123,28 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "University of Texas at Dallas",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      subHeader: "Master of Science in Business Analytics and Artificial Intelligence",
+      duration: "August 2024 - May 2026",
+      desc: "Deans Excellence Scholar",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "National Institute of Technology, Tiruchirappalli",
+logo: require("./assets/images/nitTrichyLogo.png"),
+subHeader: "Bachelor of Technology in Instrumentation and Control Engineering",
+duration: "July 2016 - May 2020",
+desc: "Developed a strong foundation in control systems, automation, and data analytics, integrating engineering principles with emerging technologies.",
+descBullets: [
+  "Graduated with a solid academic record and hands-on project experience",
+  "Active member of technical clubs and NSS, contributing to social initiatives",
+  "Worked on projects involving industrial automation and data-driven decision-making"
+]
+
     }
   ]
 };
